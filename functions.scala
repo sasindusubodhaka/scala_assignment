@@ -18,7 +18,7 @@ object functions{
 			shiping_cost=3*z;
 		}
 		else{
-			shiping_cost=(z-50)*3.75 + 50*3; 
+			shiping_cost=(z-50)*0.75 + 50*3; 
 		}
 		
 		return discounted_cost+shiping_cost;
