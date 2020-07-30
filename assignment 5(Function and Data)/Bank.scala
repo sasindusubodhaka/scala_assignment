@@ -5,7 +5,7 @@ object Bank extends App{
     var r4=new Account("1234567",4,7500.00)
     var bank:List[Account]=List(r1,r2,r3,r4) //set an object array
 
-    bank.foreach(i=>println(i))   //print current balance
+    bank.foreach(i=>println(i))   //print current balances
 
     var bal_list:List[Double]=List();//define a balance list
     
@@ -28,7 +28,7 @@ object Bank extends App{
                 }
         }
 
-    bank.foreach(j=>println(j)) //print new values
+    bank.foreach(j=>println(j)) //print new balances
     
 }
 class Account(id:String,n:Int,b:Double){
