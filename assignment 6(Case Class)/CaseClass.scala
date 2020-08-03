@@ -2,13 +2,13 @@ object CaseClass extends App{
     var p1= Point(3,0) //point p1
     var p2= Point(0,4) //point p2
 
-    println("p1="+p1)
+    println("p1="+p1)       
     println("p2="+p2)  
     println(" ")
-    println("Sum of p1 and p2 : "+p1.add(p2)) 
-    println("Moved p1 by 2,4 distance : "+p1.move(2,4)) 
-    println("Swithed x and y coordinates of p1 : "+p1.invert())  
-    println("Distance between p1 and p2 : "+p1.distance(p2)) 
+    println("Sum of p1 and p2 : "+p1.add(p2))   //print the sum
+    println("Moved p1 by 2,4 distance : "+p1.move(2,4))  //print the new coordinates of p1
+    println("Swithed x and y coordinates of p1 : "+p1.invert())  //print the new coordinaters of p1
+    println("Distance between p1 and p2 : "+p1.distance(p2))  //print the distance between p1 and p2
 
 }
  case class Point(x:Int,y:Int){
